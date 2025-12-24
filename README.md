@@ -2,29 +2,38 @@
 
 A comprehensive web application providing reliable and trusted care services for children, elderly, and family members. Users can find, book, and manage caretakers for various purposes including babysitting, elderly care, and special home care services.
 
+## 🔗 Live Demo
+
+[https://care-first-ten.vercel.app/](https://care-first-ten.vercel.app/)
+
 ## 🌟 Features
 
 ## 🚀 Core Features
 
 - **User Authentication**
+
   - Email/Password authentication
   - Google OAuth integration using Firebase
 
 - **Service Catalog**
+
   - Three main caregiving services:
     - Baby Care
     - Elderly Care
     - Sick People Care
 
 - **Dynamic Booking System**
+
   - Book services by hours or days
   - Live price calculation based on duration
 
 - **Location Selection**
+
   - Bangladesh-specific cascading dropdowns:
     - Division → District → City → Area
 
 - **Booking Management**
+
   - Track booking status:
     - Pending
     - Confirmed
@@ -32,6 +41,7 @@ A comprehensive web application providing reliable and trusted care services for
     - Cancelled
 
 - **Responsive Design**
+
   - Fully responsive across mobile, tablet, and desktop
 
 - **Modern UI/UX**
@@ -221,8 +231,8 @@ npm run start
 | --------- | ----------------- | ------------------ |
 | **Admin** | `admin@gmail.com` | `admin@gmail.comA` |
 
-| Role      | Email             | Password           |
-| --------- | ----------------- | ------------------ |
+| Role     | Email                   | Password                 |
+| -------- | ----------------------- | ------------------------ |
 | **User** | `shamim.ct17@gmail.com` | `shamim.ct17@gmail.comA` |
 
 ## 🧪 Testing
@@ -240,6 +250,7 @@ npm run start
    - Cancel booking
 
 ## 📝 TODO / Future Enhancements
+
 - [ ] Real-time notifications
 - [ ] Chat between users and caregivers
 
