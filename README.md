@@ -45,7 +45,7 @@ A comprehensive web application providing reliable and trusted care services for
 
 ### Technical Features
 
-- **Next.js 14+** with App Router
+- **Next.js 16.1.1+** with App Router
 - **Firebase Authentication** for user management
 - **MongoDB** for data persistence
 - **Protected Routes** with authentication state persistence
