@@ -6,7 +6,17 @@ A comprehensive web application providing reliable and trusted care services for
 
 [https://care-first-ten.vercel.app/](https://care-first-ten.vercel.app/)
 
-## 🌟 Features
+## 🔑 Admin Credentials
+
+(For testing purposes)
+
+| Role      | Email             | Password           |
+| --------- | ----------------- | ------------------ |
+| **Admin** | `admin@gmail.com` | `admin@gmail.comA` |
+
+| Role     | Email                   | Password                 |
+| -------- | ----------------------- | ------------------------ |
+| **User** | `shamim.ct17@gmail.com` | `shamim.ct17@gmail.comA` |
 
 ## 🚀 Core Features
 
@@ -62,10 +72,6 @@ A comprehensive web application providing reliable and trusted care services for
 - **SEO Optimized** with dynamic metadata
 - **Modern CSS** with Tailwind CSS v4
 - **Real-time Updates** with React hooks
-
-## 📸 Screenshots
-
-_(Add screenshots after deployment)_
 
 ## 🚀 Getting Started
 
@@ -222,18 +228,6 @@ The application features a premium design system with:
 npm run build
 npm run start
 ```
-
-## 🔑 Admin Credentials
-
-(For testing purposes)
-
-| Role      | Email             | Password           |
-| --------- | ----------------- | ------------------ |
-| **Admin** | `admin@gmail.com` | `admin@gmail.comA` |
-
-| Role     | Email                   | Password                 |
-| -------- | ----------------------- | ------------------------ |
-| **User** | `shamim.ct17@gmail.com` | `shamim.ct17@gmail.comA` |
 
 ## 🧪 Testing
 

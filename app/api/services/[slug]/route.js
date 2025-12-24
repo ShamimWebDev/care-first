@@ -4,7 +4,7 @@ import { servicesData } from "@/lib/data/sampleData";
 
 export async function GET(request, { params }) {
   try {
-    const { slug } = params;
+    const { slug } = await params;
 
     // Find service by slug or _id
     const service = servicesData.find((s) => s.slug === slug || s._id === slug);

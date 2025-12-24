@@ -7,7 +7,7 @@ export async function GET(request, { params }) {
   try {
     await connectDB();
 
-    const { email } = params;
+    const { email } = await params;
     const user = await User.findOne({ email }).select("-password");
 
     if (!user) {

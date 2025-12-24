@@ -8,7 +8,7 @@ export async function PATCH(request, { params }) {
   try {
     await connectDB();
 
-    const { id } = params;
+    const { id } = await params;
     const body = await request.json();
 
     const booking = await Booking.findByIdAndUpdate(
@@ -36,7 +36,7 @@ export async function DELETE(request, { params }) {
   try {
     await connectDB();
 
-    const { id } = params;
+    const { id } = await params;
     const booking = await Booking.findByIdAndDelete(id);
 
     if (!booking) {
@@ -61,7 +61,7 @@ export async function GET(request, { params }) {
   try {
     await connectDB();
 
-    const { id } = params;
+    const { id } = await params;
     const booking = await Booking.findById(id);
 
     if (!booking) {
