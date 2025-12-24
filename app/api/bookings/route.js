@@ -32,6 +32,15 @@ export async function POST(request) {
       status: "Pending",
     });
 
+    // Send invoice email asynchronously
+    try {
+      const { sendInvoiceEmail } = await import("@/lib/email/sendInvoice");
+      await sendInvoiceEmail(booking);
+    } catch (emailError) {
+      console.error("Error sending invoice email:", emailError);
+      // Continue execution even if email fails
+    }
+
     return NextResponse.json(booking, { status: 201 });
   } catch (error) {
     console.error("Error creating booking:", error);

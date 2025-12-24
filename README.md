@@ -4,15 +4,44 @@ A comprehensive web application providing reliable and trusted care services for
 
 ## 🌟 Features
 
-### Core Features
+## 🚀 Core Features
 
-- **User Authentication**: Email/Password and Google OAuth with Firebase
-- **Service Catalog**: Three main services (Baby Care, Elderly Care, Sick People Care)
-- **Dynamic Booking System**: Book services by hours or days with live cost calculation
-- **Location Selection**: Bangladesh-specific cascading dropdowns (Division → District → City → Area)
-- **Booking Management**: Track booking status (Pending / Confirmed / Completed / Cancelled)
-- **Responsive Design**: Fully responsive across mobile, tablet, and desktop
-- **Modern UI/UX**: Premium design with gradients, animations, and glassmorphism effects
+- **User Authentication**
+  - Email/Password authentication
+  - Google OAuth integration using Firebase
+
+- **Service Catalog**
+  - Three main caregiving services:
+    - Baby Care
+    - Elderly Care
+    - Sick People Care
+
+- **Dynamic Booking System**
+  - Book services by hours or days
+  - Live price calculation based on duration
+
+- **Location Selection**
+  - Bangladesh-specific cascading dropdowns:
+    - Division → District → City → Area
+
+- **Booking Management**
+  - Track booking status:
+    - Pending
+    - Confirmed
+    - Completed
+    - Cancelled
+
+- **Responsive Design**
+  - Fully responsive across mobile, tablet, and desktop
+
+- **Modern UI/UX**
+  - Premium design with gradients, animations, and glassmorphism effects
+
+### ✅ Completed Features
+
+- [x] Email invoice sending (Nodemailer integration)
+- [x] Admin dashboard
+- [x] Service reviews and ratings
 
 ### Technical Features
 
@@ -70,6 +99,10 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/care-first
 
 # App URL
 NEXT_PUBLIC_APP_URL=http://localhost:3000
+
+# Email Configuration (for Invoices)
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_app_specific_password
 ```
 
 4. **Run the development server**
@@ -188,6 +221,10 @@ npm run start
 | --------- | ----------------- | ------------------ |
 | **Admin** | `admin@gmail.com` | `admin@gmail.comA` |
 
+| Role      | Email             | Password           |
+| --------- | ----------------- | ------------------ |
+| **User** | `shamim.ct17@gmail.com` | `shamim.ct17@gmail.comA` |
+
 ## 🧪 Testing
 
 1. **Authentication Flow**
@@ -203,11 +240,6 @@ npm run start
    - Cancel booking
 
 ## 📝 TODO / Future Enhancements
-
-- [ ] Email invoice sending (Nodemailer integration)
-- [ ] Stripe payment integration
-- [ ] Admin dashboard
-- [ ] Service reviews and ratings
 - [ ] Real-time notifications
 - [ ] Chat between users and caregivers
 
